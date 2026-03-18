@@ -1,0 +1,18 @@
+# ComfyUI RTX Video Suite - Requirements
+# Production Release v1.0.0
+
+# Core dependencies
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.24.0
+opencv-python>=4.8.0
+
+# NVIDIA RTX Video Super Resolution SDK
+# NOTE: nvvfx must be installed separately from NVIDIA MAXINE SDK
+# Download: https://github.com/NVIDIA/MAXINE-VFX-SDK
+# Installation instructions: See wiki
+
+# Optional: Rich progress bars for CLI
+rich>=13.0.0
+
+# Note: ComfyUI dependencies (folder_paths, comfy.utils) are provided by ComfyUI itself
