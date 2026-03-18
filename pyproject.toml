@@ -1,0 +1,53 @@
+[project]
+name = "comfyui-rtx-video-suite"
+version = "1.0.0"
+description = "RTX Video Super Resolution (VSR) batch upscaler with native drag & drop picker, zero-temp-file FFmpeg pipeline, audio copy, auto subfolder and FPS/VFR preservation for ComfyUI"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    {name = "uczensokratesa", email = "twój-email@example.com"}
+]
+keywords = [
+    "comfyui",
+    "rtx",
+    "video",
+    "superresolution",
+    "vsr",
+    "upscale",
+    "batch",
+    "nvidia",
+    "ffmpeg",
+    "video-processing"
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Multimedia :: Video",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
+
+dependencies = [
+    "opencv-python>=4.8.0",
+    "numpy>=1.24.0",
+    "torch>=2.0.0",
+    # nvvfx nie jest na PyPI – instaluje się ręcznie z NVIDIA SDK
+    # ffmpeg też instalowany systemowo
+]
+
+[project.urls]
+Homepage = "https://github.com/uczensokratesa/ComfyUI-RTX-Video-Suite"
+Repository = "https://github.com/uczensokratesa/ComfyUI-RTX-Video-Suite"
+Issues = "https://github.com/uczensokratesa/ComfyUI-RTX-Video-Suite/issues"
+# Changelog = "https://github.com/uczensokratesa/ComfyUI-RTX-Video-Suite/blob/main/CHANGELOG.md"   # dodaj plik CHANGELOG.md jeśli istnieje
+
+[project.scripts]
+rtx-upscale = "comfyui_rtx_video_suite.cli:main"   # jeśli masz osobny plik cli.py
+
+# === SEKcja DLA COMFYUI REGISTRY ===
+[tool.comfy]
+PublisherId = "uczensokratesa"
+DisplayName = "ComfyUI RTX Video Suite"
+Icon = "https://raw.githubusercontent.com/uczensokratesa/ComfyUI-RTX-Video-Suite/main/web/icon.png"
