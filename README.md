@@ -45,6 +45,17 @@ The streamlined version. Plug in your video path, choose your scale factor (e.g.
 3. ⚙️ RTX Batch Upscale (Advanced)
 For power users. Take full control over the FFmpeg crf quality, specific target resolutions, chunk sizes, and batch sizes to perfectly balance your VRAM usage.
 
+4. ⏸️ VAE Review → RTX Confirm (Interactive Checkpoint)
+The ultimate "Human-in-the-loop" bridge. This node acts as a smart gatekeeper between your VAE video generation and the heavy upscaling process. It ensures you never waste hours upscaling a "dud" generation.
+
+Smart Path Sanitization: Automatically cleans messy output strings from VAE Streaming or Video Combine nodes, extracting the exact file path needed for the next step.
+
+Integrated Video Player: Uses high-performance addDOMWidget technology to embed a native HTML5 video player directly onto the node. Watch your generation with full playback controls before committing.
+
+Workflow Synchronization: Pauses the entire ComfyUI execution thread, waiting for your manual "Go" or "Cancel".
+
+Automation-Friendly: Includes an enable_review toggle. Turn it OFF for unattended 24/7 batch processing (where it acts as a silent path cleaner), or ON when you want to curate the results personally.
+
 💻 CLI Usage (Standalone)
 This suite doubles as a standalone Python script!
 
