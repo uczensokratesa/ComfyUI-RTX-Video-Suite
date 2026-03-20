@@ -1,6 +1,6 @@
 [project]
 name = "comfyui-rtx-video-suite"
-version = "1.5.2"
+version = "1.5.3"
 description = "RTX Video Super Resolution (VSR) batch upscaler with native drag & drop picker, zero-temp-file FFmpeg pipeline, audio copy, auto subfolder and FPS/VFR preservation for ComfyUI"
 readme = "README.md"
 requires-python = ">=3.10"
