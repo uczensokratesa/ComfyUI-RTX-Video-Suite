@@ -56,6 +56,25 @@ Workflow Synchronization: Pauses the entire ComfyUI execution thread, waiting fo
 
 Automation-Friendly: Includes an enable_review toggle. Turn it OFF for unattended 24/7 batch processing (where it acts as a silent path cleaner), or ON when you want to curate the results personally.
 
+5. 🔊 RTX Audio Muxer (Instant)
+**Fastest way to combine audio with your upscaled video.** This node uses FFmpeg "stream copying" technology to inject audio into a video file in milliseconds, without re-encoding the video (preserving 100% of the RTX Upscale quality).
+
+* **Inputs:**
+    * `video_path`: Path to your upscaled MP4 file.
+    * `audio`: (Optional) Connect raw AUDIO tensors (e.g., from Audio Separator or Load Audio).
+    * `audio_path`: (Optional) Provide a direct path to an existing .mp3 or .wav file.
+* **Features:**
+    * **Instant Muxing:** No video re-rendering (uses `-c:v copy`).
+    * **Audio Delay/Advance:** Precisely sync audio with video (±10 seconds).
+    * **Volume Control:** Boost or lower audio levels (0x to 10x).
+    * **Auto-Cleanup:** Automatically manages temporary files generated from audio tensors.
+    * **Organization:** Saves final files in a dedicated `output/rtx_muxed` folder with timestamps.
+> [!IMPORTANT]
+> **FFmpeg is required** for the RTX Audio Muxer node. 
+> Ensure FFmpeg is installed and added to your system's PATH. 
+> You can check this by typing `ffmpeg -version` in your terminal.
+
+
 💻 CLI Usage (Standalone)
 This suite doubles as a standalone Python script!
 
