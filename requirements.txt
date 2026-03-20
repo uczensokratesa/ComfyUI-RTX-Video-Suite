@@ -1,18 +1,19 @@
-# ComfyUI RTX Video Suite - Requirements
-# Production Release v1.0.0
-
-# Core dependencies
+# --- Core dependencies ---
 torch>=2.0.0
 torchvision>=0.15.0
+# Dodajemy torchaudio, bo RTXAudioMuxer go wymaga do zapisu tensorów
+torchaudio>=2.0.0 
 numpy>=1.24.0
 opencv-python>=4.8.0
 
-# NVIDIA RTX Video Super Resolution SDK
-# NOTE: nvvfx must be installed separately from NVIDIA MAXINE SDK
-# Download: https://github.com/NVIDIA/MAXINE-VFX-SDK
-# Installation instructions: See wiki
+# --- Audio/Video Processing ---
+# Wymagane przez RTXAudioMuxer do łączenia strumieni (musi być w systemie)
+# (FFmpeg nie instaluje się przez pip, ale warto o nim wspomnieć w README)
 
-# Optional: Rich progress bars for CLI
+# --- NVIDIA RTX Video Super Resolution SDK ---
+# nvvfx musi być zainstalowany oddzielnie z NVIDIA MAXINE SDK
+# Link: https://github.com/NVIDIA/MAXINE-VFX-SDK
+
+# --- UI & CLI Enhancements ---
 rich>=13.0.0
-
-# Note: ComfyUI dependencies (folder_paths, comfy.utils) are provided by ComfyUI itself
+aiohttp  # Wymagane przez RTXVideoReview.py do obsługi API/serwera
