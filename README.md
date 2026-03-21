@@ -1,4 +1,5 @@
 # 🎬 ComfyUI RTX Video Suite (Bulletproof Edition)
+![RTX Video Suite Banner](https://raw.githubusercontent.com/uczensokratesa/ComfyUI-RTX-Video-Suite/main/nodes6.png)
 
 Upscaling long videos in ComfyUI finally works exactly as it should. No out-of-memory (OOM) crashes, no killing your SSD with thousands of temporary PNG files, and no silent freezes after 4 hours of rendering.
 
@@ -73,6 +74,18 @@ Automation-Friendly: Includes an enable_review toggle. Turn it OFF for unattende
 > **FFmpeg is required** for the RTX Audio Muxer node. 
 > Ensure FFmpeg is installed and added to your system's PATH. 
 > You can check this by typing `ffmpeg -version` in your terminal.
+
+6. 📺 RTX Video Player (Path-Based)
+**The ultimate playback companion for your video workflows.** Unlike the Review node, this is a "passive" player—it doesn't pause the execution. It simply monitors the provided path and, as soon as the file is ready, renders an high-performance HTML5 video player directly on the node.
+
+* **Inputs:**
+    * `video_path`: Direct path to any video file (works perfectly with Upscale or Muxer outputs).
+* **Features:**
+    * **Instant Metadata:** Automatically displays resolution, FPS, duration, and file size beneath the player.
+    * **Smart Playback:** Toggleable `autoplay`, `loop`, and `mute` (essential for browser compatibility).
+    * **Pass-through Architecture:** Features a `video_path` output, allowing you to chain it anywhere in your workflow without breaking the logic.
+    * **Dynamic Resizing:** The node automatically adjusts its height to match the aspect ratio of your video (from 9:16 shorts to 21:9 cinematic renders).
+    * **Zero-Cache Tech:** Uses a timestamp-based buster to ensure you always see the latest render, not a cached version.
 
 
 💻 CLI Usage (Standalone)
