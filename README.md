@@ -107,3 +107,34 @@ Gemini: Pipeline architecture, FFmpeg stdin piping, and Producer-Consumer queue 
 Grok: Low-level OS I/O hardening, partial write resistance, and VFR/FPS preservation.
 
 GPT: Deadlock prevention, watchdog threads, and robust audio stream mapping.
+📜 Changelog
+[v1.1.0] - 2026-03-21
+"The UX & Workflow Update"
+
+NEW Node: RTX Video Player – A passive UI component that allows you to watch your renders directly in ComfyUI without stopping the workflow. Includes automatic metadata detection (Resolution, FPS, File Size).
+
+REFACTORED Node: Video Review & Go – Complete rewrite of the old "Confirm" node.
+
+Improved naming convention for inputs (video_path instead of vae_output) for better compatibility with other suites.
+
+Optimized file locking handling for Windows users.
+
+Standardized Data Types – All nodes now use video_path as a universal string exchange format, making the suite 100% compatible with standard ComfyUI "Load Video" or "Save Video" paths.
+
+Performance – Improved FFmpeg stream handling in the Audio Muxer.
+
+[v1.0.0] - 2026-02-15
+"The Foundation"
+
+Initial Release of the RTX Video Suite.
+
+Core Engine – Integration with NVIDIA MAXINE SDK for RTX Video Super Resolution.
+
+RTX Batch Upscale (Simple/Advanced) – High-performance upscaling for MP4/AVI containers.
+
+Native Video Path Picker – Drag-and-drop file path provider for local files.
+
+RTX Audio Muxer – Instant, zero-re-encode audio injection into upscaled videos.
+## 🚀 Roadmap
+- [ ] **RTX Director Suite** – Sequential video generation from text scenarios.
+- [ ] **Frame-Bridge Logic** – Automatic "Last Frame" to "Next Start" conditioning for seamless long-form video.
