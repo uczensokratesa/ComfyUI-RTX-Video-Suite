@@ -1,8 +1,8 @@
 {
   "id": "99f5c49b-8f61-4031-a354-e70847a182f8",
   "revision": 0,
-  "last_node_id": 360,
-  "last_link_id": 650,
+  "last_node_id": 361,
+  "last_link_id": 653,
   "nodes": [
     {
       "id": 218,
@@ -31,7 +31,10 @@
         }
       ],
       "title": "Get_vae",
-      "properties": {},
+      "properties": {
+        "Node name for S&R": "GetNode",
+        "aux_id": "GetNode"
+      },
       "widgets_values": [
         "vae"
       ],
@@ -65,7 +68,10 @@
         }
       ],
       "title": "Get_vae",
-      "properties": {},
+      "properties": {
+        "Node name for S&R": "GetNode",
+        "aux_id": "GetNode"
+      },
       "widgets_values": [
         "vae"
       ],
@@ -104,6 +110,8 @@
       ],
       "title": "Set_latent",
       "properties": {
+        "Node name for S&R": "SetNode",
+        "aux_id": "SetNode",
         "previousName": "latent"
       },
       "widgets_values": [
@@ -139,7 +147,10 @@
         }
       ],
       "title": "Get_height_downsized",
-      "properties": {},
+      "properties": {
+        "Node name for S&R": "GetNode",
+        "aux_id": "GetNode"
+      },
       "widgets_values": [
         "height_downsized"
       ],
@@ -173,7 +184,10 @@
         }
       ],
       "title": "Get_width_downsized",
-      "properties": {},
+      "properties": {
+        "Node name for S&R": "GetNode",
+        "aux_id": "GetNode"
+      },
       "widgets_values": [
         "width_downsized"
       ],
@@ -208,7 +222,10 @@
         }
       ],
       "title": "Get_frames",
-      "properties": {},
+      "properties": {
+        "Node name for S&R": "GetNode",
+        "aux_id": "GetNode"
+      },
       "widgets_values": [
         "frames"
       ],
@@ -247,6 +264,8 @@
       ],
       "title": "Set_compress_image",
       "properties": {
+        "Node name for S&R": "SetNode",
+        "aux_id": "SetNode",
         "previousName": "compress_image"
       },
       "widgets_values": [
@@ -377,7 +396,10 @@
         }
       ],
       "title": "Get_clip",
-      "properties": {},
+      "properties": {
+        "Node name for S&R": "GetNode",
+        "aux_id": "GetNode"
+      },
       "widgets_values": [
         "clip"
       ],
@@ -416,6 +438,8 @@
       ],
       "title": "Set_height",
       "properties": {
+        "Node name for S&R": "SetNode",
+        "aux_id": "SetNode",
         "previousName": ""
       },
       "widgets_values": [
@@ -456,6 +480,8 @@
       ],
       "title": "Set_width",
       "properties": {
+        "Node name for S&R": "SetNode",
+        "aux_id": "SetNode",
         "previousName": ""
       },
       "widgets_values": [
@@ -496,6 +522,8 @@
       ],
       "title": "Set_frames",
       "properties": {
+        "Node name for S&R": "SetNode",
+        "aux_id": "SetNode",
         "previousName": ""
       },
       "widgets_values": [
@@ -536,6 +564,8 @@
       ],
       "title": "Set_t2v_mode",
       "properties": {
+        "Node name for S&R": "SetNode",
+        "aux_id": "SetNode",
         "previousName": ""
       },
       "widgets_values": [
@@ -570,7 +600,10 @@
         }
       ],
       "title": "Get_latent",
-      "properties": {},
+      "properties": {
+        "Node name for S&R": "GetNode",
+        "aux_id": "GetNode"
+      },
       "widgets_values": [
         "latent"
       ],
@@ -630,7 +663,10 @@
         }
       ],
       "title": "Get_vae_audio",
-      "properties": {},
+      "properties": {
+        "Node name for S&R": "GetNode",
+        "aux_id": "GetNode"
+      },
       "widgets_values": [
         "vae_audio"
       ],
@@ -665,7 +701,10 @@
         }
       ],
       "title": "Get_vae",
-      "properties": {},
+      "properties": {
+        "Node name for S&R": "GetNode",
+        "aux_id": "GetNode"
+      },
       "widgets_values": [
         "vae"
       ],
@@ -699,7 +738,10 @@
         }
       ],
       "title": "Get_upscale_model",
-      "properties": {},
+      "properties": {
+        "Node name for S&R": "GetNode",
+        "aux_id": "GetNode"
+      },
       "widgets_values": [
         "upscale_model"
       ]
@@ -780,7 +822,10 @@
         }
       ],
       "title": "Get_model",
-      "properties": {},
+      "properties": {
+        "Node name for S&R": "GetNode",
+        "aux_id": "GetNode"
+      },
       "widgets_values": [
         "model"
       ],
@@ -814,7 +859,10 @@
         }
       ],
       "title": "Get_negative",
-      "properties": {},
+      "properties": {
+        "Node name for S&R": "GetNode",
+        "aux_id": "GetNode"
+      },
       "widgets_values": [
         "negative"
       ],
@@ -848,7 +896,10 @@
         }
       ],
       "title": "Get_positive",
-      "properties": {},
+      "properties": {
+        "Node name for S&R": "GetNode",
+        "aux_id": "GetNode"
+      },
       "widgets_values": [
         "positive"
       ],
@@ -882,7 +933,10 @@
         }
       ],
       "title": "Get_t2v_mode",
-      "properties": {},
+      "properties": {
+        "Node name for S&R": "GetNode",
+        "aux_id": "GetNode"
+      },
       "widgets_values": [
         "t2v_mode"
       ]
@@ -914,7 +968,10 @@
         }
       ],
       "title": "Get_t2v_mode",
-      "properties": {},
+      "properties": {
+        "Node name for S&R": "GetNode",
+        "aux_id": "GetNode"
+      },
       "widgets_values": [
         "t2v_mode"
       ]
@@ -1006,7 +1063,10 @@
         }
       ],
       "title": "Get_fps",
-      "properties": {},
+      "properties": {
+        "Node name for S&R": "GetNode",
+        "aux_id": "GetNode"
+      },
       "widgets_values": [
         "fps"
       ]
@@ -1038,7 +1098,10 @@
         }
       ],
       "title": "Get_vae_audio",
-      "properties": {},
+      "properties": {
+        "Node name for S&R": "GetNode",
+        "aux_id": "GetNode"
+      },
       "widgets_values": [
         "vae_audio"
       ],
@@ -1077,6 +1140,8 @@
       ],
       "title": "Set_latent_audio",
       "properties": {
+        "Node name for S&R": "SetNode",
+        "aux_id": "SetNode",
         "previousName": "latent_audio"
       },
       "widgets_values": [
@@ -1223,6 +1288,8 @@
       ],
       "title": "Set_height_downsized",
       "properties": {
+        "Node name for S&R": "SetNode",
+        "aux_id": "SetNode",
         "previousName": "height_downsized"
       },
       "widgets_values": [
@@ -1300,13 +1367,15 @@
       ],
       "outputs": [
         {
-          "name": "*",
-          "type": "*",
+          "name": "IMAGE",
+          "type": "IMAGE",
           "links": null
         }
       ],
       "title": "Set_resize_image",
       "properties": {
+        "Node name for S&R": "SetNode",
+        "aux_id": "SetNode",
         "previousName": "resize_image"
       },
       "widgets_values": [
@@ -1347,6 +1416,8 @@
       ],
       "title": "Set_width_downsized",
       "properties": {
+        "Node name for S&R": "SetNode",
+        "aux_id": "SetNode",
         "previousName": "width_downsized"
       },
       "widgets_values": [
@@ -1479,6 +1550,8 @@
       ],
       "title": "Set_ref_image",
       "properties": {
+        "Node name for S&R": "SetNode",
+        "aux_id": "SetNode",
         "previousName": "ref_image"
       },
       "widgets_values": [
@@ -1514,7 +1587,10 @@
         }
       ],
       "title": "Get_height",
-      "properties": {},
+      "properties": {
+        "Node name for S&R": "GetNode",
+        "aux_id": "GetNode"
+      },
       "widgets_values": [
         "height"
       ],
@@ -1548,7 +1624,10 @@
         }
       ],
       "title": "Get_width",
-      "properties": {},
+      "properties": {
+        "Node name for S&R": "GetNode",
+        "aux_id": "GetNode"
+      },
       "widgets_values": [
         "width"
       ],
@@ -1587,6 +1666,8 @@
       ],
       "title": "Set_vae_audio",
       "properties": {
+        "Node name for S&R": "SetNode",
+        "aux_id": "SetNode",
         "previousName": "vae_audio"
       },
       "widgets_values": [
@@ -1627,6 +1708,8 @@
       ],
       "title": "Set_vae",
       "properties": {
+        "Node name for S&R": "SetNode",
+        "aux_id": "SetNode",
         "previousName": "vae"
       },
       "widgets_values": [
@@ -1711,7 +1794,10 @@
         }
       ],
       "title": "Get_model",
-      "properties": {},
+      "properties": {
+        "Node name for S&R": "GetNode",
+        "aux_id": "GetNode"
+      },
       "widgets_values": [
         "model"
       ],
@@ -1745,7 +1831,10 @@
         }
       ],
       "title": "Get_negative",
-      "properties": {},
+      "properties": {
+        "Node name for S&R": "GetNode",
+        "aux_id": "GetNode"
+      },
       "widgets_values": [
         "negative"
       ],
@@ -1779,7 +1868,10 @@
         }
       ],
       "title": "Get_positive",
-      "properties": {},
+      "properties": {
+        "Node name for S&R": "GetNode",
+        "aux_id": "GetNode"
+      },
       "widgets_values": [
         "positive"
       ],
@@ -1952,6 +2044,8 @@
       ],
       "title": "Set_model_with_lora",
       "properties": {
+        "Node name for S&R": "SetNode",
+        "aux_id": "SetNode",
         "previousName": "model_with_lora"
       },
       "widgets_values": [
@@ -2244,7 +2338,10 @@
         }
       ],
       "title": "Get_ref_image",
-      "properties": {},
+      "properties": {
+        "Node name for S&R": "GetNode",
+        "aux_id": "GetNode"
+      },
       "widgets_values": [
         "ref_image"
       ],
@@ -2320,7 +2417,10 @@
         }
       ],
       "title": "Get_compress_image",
-      "properties": {},
+      "properties": {
+        "Node name for S&R": "GetNode",
+        "aux_id": "GetNode"
+      },
       "widgets_values": [
         "compress_image"
       ],
@@ -2531,6 +2631,8 @@
       ],
       "title": "Set_fps",
       "properties": {
+        "Node name for S&R": "SetNode",
+        "aux_id": "SetNode",
         "previousName": ""
       },
       "widgets_values": [
@@ -2603,7 +2705,10 @@
         }
       ],
       "title": "Get_fps",
-      "properties": {},
+      "properties": {
+        "Node name for S&R": "GetNode",
+        "aux_id": "GetNode"
+      },
       "widgets_values": [
         "fps"
       ]
@@ -2640,6 +2745,8 @@
       ],
       "title": "Set_positive",
       "properties": {
+        "Node name for S&R": "SetNode",
+        "aux_id": "SetNode",
         "previousName": "positive"
       },
       "widgets_values": [
@@ -2680,6 +2787,8 @@
       ],
       "title": "Set_negative",
       "properties": {
+        "Node name for S&R": "SetNode",
+        "aux_id": "SetNode",
         "previousName": "negative"
       },
       "widgets_values": [
@@ -2785,6 +2894,8 @@
       ],
       "title": "Set_model",
       "properties": {
+        "Node name for S&R": "SetNode",
+        "aux_id": "SetNode",
         "previousName": "model"
       },
       "widgets_values": [
@@ -2819,7 +2930,10 @@
         }
       ],
       "title": "Get_model_with_lora",
-      "properties": {},
+      "properties": {
+        "Node name for S&R": "GetNode",
+        "aux_id": "GetNode"
+      },
       "widgets_values": [
         "model_with_lora"
       ]
@@ -3168,6 +3282,8 @@
       ],
       "title": "Set_upscale_model",
       "properties": {
+        "Node name for S&R": "SetNode",
+        "aux_id": "SetNode",
         "previousName": "upscale_model"
       },
       "widgets_values": [
@@ -3206,6 +3322,8 @@
       ],
       "title": "Set_clip",
       "properties": {
+        "Node name for S&R": "SetNode",
+        "aux_id": "SetNode",
         "previousName": "clip"
       },
       "widgets_values": [
@@ -3862,38 +3980,6 @@
       "bgcolor": "rgba(24,24,27,.9)"
     },
     {
-      "id": 307,
-      "type": "GetNode",
-      "pos": [
-        2302.5183650502477,
-        3923.4974416611144
-      ],
-      "size": [
-        210,
-        60
-      ],
-      "flags": {
-        "collapsed": true
-      },
-      "order": 45,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "FLOAT",
-          "type": "FLOAT",
-          "links": [
-            635
-          ]
-        }
-      ],
-      "title": "Get_fps",
-      "properties": {},
-      "widgets_values": [
-        "fps"
-      ]
-    },
-    {
       "id": 107,
       "type": "LTXVConditioning",
       "pos": [
@@ -4005,7 +4091,7 @@
         314
       ],
       "flags": {},
-      "order": 46,
+      "order": 45,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4046,7 +4132,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 47,
+      "order": 46,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4111,7 +4197,7 @@
         58
       ],
       "flags": {},
-      "order": 48,
+      "order": 47,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4134,152 +4220,6 @@
       ],
       "color": "#006691",
       "bgcolor": "rgba(24,24,27,.9)"
-    },
-    {
-      "id": 332,
-      "type": "SmartVAE_AdvancedDecoder",
-      "pos": [
-        1916.3393643978281,
-        4338.950379899366
-      ],
-      "size": [
-        414.19181544137734,
-        478
-      ],
-      "flags": {},
-      "order": 98,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "samples",
-          "type": "LATENT",
-          "link": 612
-        },
-        {
-          "name": "vae",
-          "type": "VAE",
-          "link": 613
-        },
-        {
-          "name": "audio",
-          "shape": 7,
-          "type": "AUDIO",
-          "link": 614
-        },
-        {
-          "name": "calibration_image",
-          "shape": 7,
-          "type": "IMAGE",
-          "link": 615
-        },
-        {
-          "name": "fps",
-          "shape": 7,
-          "type": "FLOAT",
-          "widget": {
-            "name": "fps"
-          },
-          "link": 635
-        }
-      ],
-      "outputs": [
-        {
-          "name": "preview_thumbs",
-          "type": "IMAGE",
-          "links": null
-        },
-        {
-          "name": "video_path",
-          "type": "STRING",
-          "links": [
-            648
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "grok-smartvae",
-        "ver": "e54de730475f0e1229d83de7435132b01f5982c1",
-        "Node name for S&R": "SmartVAE_AdvancedDecoder"
-      },
-      "widgets_values": [
-        8,
-        2,
-        0,
-        false,
-        512,
-        false,
-        "",
-        1,
-        "h264",
-        "",
-        true,
-        "none",
-        true,
-        0.7,
-        0.4,
-        12
-      ]
-    },
-    {
-      "id": 347,
-      "type": "RTXBatchVideoUpscaleAdvanced",
-      "pos": [
-        2925.936162169586,
-        4066.8141826664446
-      ],
-      "size": [
-        329.5622161865234,
-        386
-      ],
-      "flags": {},
-      "order": 101,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "video_path",
-          "type": "STRING",
-          "link": 650
-        }
-      ],
-      "outputs": [
-        {
-          "name": "output_path",
-          "type": "STRING",
-          "links": []
-        },
-        {
-          "name": "preview_frames",
-          "type": "IMAGE",
-          "links": [
-            632
-          ]
-        },
-        {
-          "name": "info",
-          "type": "STRING",
-          "links": null
-        }
-      ],
-      "properties": {
-        "aux_id": "uczensokratesa/ComfyUI-RTX-Video-Suite",
-        "ver": "9f67b06718430bacb30c868572527424014baad3",
-        "Node name for S&R": "RTXBatchVideoUpscaleAdvanced"
-      },
-      "widgets_values": [
-        "upscaled_videos",
-        "",
-        "factor",
-        2,
-        1920,
-        1080,
-        "ULTRA",
-        80,
-        4,
-        "h264_vhs",
-        19,
-        true,
-        true
-      ]
     },
     {
       "id": 121,
@@ -4332,44 +4272,226 @@
       "bgcolor": "rgba(24,24,27,.9)"
     },
     {
-      "id": 360,
-      "type": "VideoReviewAndConfirm",
+      "id": 307,
+      "type": "GetNode",
       "pos": [
-        2480.5476141973386,
-        4385.381449348981
+        2244.8165855336388,
+        3757.918422178676
       ],
       "size": [
-        305.9645599365234,
-        120
+        210,
+        60
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 48,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": [
+            635
+          ]
+        }
+      ],
+      "title": "Get_fps",
+      "properties": {
+        "Node name for S&R": "GetNode",
+        "aux_id": "GetNode"
+      },
+      "widgets_values": [
+        "fps"
+      ]
+    },
+    {
+      "id": 347,
+      "type": "RTXBatchVideoUpscaleAdvanced",
+      "pos": [
+        2961.0589844840415,
+        4160.893171008738
+      ],
+      "size": [
+        329.5622161865234,
+        386
+      ],
+      "flags": {},
+      "order": 101,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "video_path",
+          "type": "STRING",
+          "link": 653
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_path",
+          "type": "STRING",
+          "links": []
+        },
+        {
+          "name": "preview_frames",
+          "type": "IMAGE",
+          "links": [
+            632
+          ]
+        },
+        {
+          "name": "info",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-rtx-video-suite",
+        "ver": "9f67b06718430bacb30c868572527424014baad3",
+        "Node name for S&R": "RTXBatchVideoUpscaleAdvanced",
+        "aux_id": "uczensokratesa/ComfyUI-RTX-Video-Suite"
+      },
+      "widgets_values": [
+        "upscaled_videos",
+        "",
+        "factor",
+        2,
+        1920,
+        1080,
+        "ULTRA",
+        80,
+        4,
+        "h264_vhs",
+        19,
+        true,
+        true
+      ]
+    },
+    {
+      "id": 361,
+      "type": "RTXVideoReviewGo",
+      "pos": [
+        2568.684122196778,
+        4142.750489682326
+      ],
+      "size": [
+        270,
+        106
       ],
       "flags": {},
       "order": 100,
       "mode": 0,
       "inputs": [
         {
-          "name": "vae_output",
+          "name": "video_path",
           "type": "STRING",
-          "link": 648
+          "link": 652
         }
       ],
       "outputs": [
         {
-          "name": "clean_video_path",
+          "name": "video_path",
           "type": "STRING",
           "links": [
-            650
+            653
           ]
         }
       ],
       "properties": {
-        "aux_id": "uczensokratesa/ComfyUI-RTX-Video-Suite",
-        "ver": "9f67b06718430bacb30c868572527424014baad3",
-        "Node name for S&R": "VideoReviewAndConfirm"
+        "cnr_id": "comfyui-rtx-video-suite",
+        "ver": "85ff07e8917f45e35e5569b5b67241f81b905b18",
+        "Node name for S&R": "RTXVideoReviewGo"
       },
       "widgets_values": [
         true,
         "continue_btn",
         "cancel_btn"
+      ]
+    },
+    {
+      "id": 332,
+      "type": "SmartVAE_AdvancedDecoder",
+      "pos": [
+        2100.7341815487257,
+        4412.959184061974
+      ],
+      "size": [
+        414.19181544137734,
+        478
+      ],
+      "flags": {},
+      "order": 98,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 612
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 613
+        },
+        {
+          "name": "audio",
+          "shape": 7,
+          "type": "AUDIO",
+          "link": 614
+        },
+        {
+          "name": "calibration_image",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": 615
+        },
+        {
+          "name": "fps",
+          "shape": 7,
+          "type": "FLOAT",
+          "widget": {
+            "name": "fps"
+          },
+          "link": 635
+        }
+      ],
+      "outputs": [
+        {
+          "name": "preview_thumbs",
+          "type": "IMAGE",
+          "links": null
+        },
+        {
+          "name": "video_path",
+          "type": "STRING",
+          "links": [
+            652
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "grok-smartvae",
+        "ver": "e54de730475f0e1229d83de7435132b01f5982c1",
+        "Node name for S&R": "SmartVAE_AdvancedDecoder"
+      },
+      "widgets_values": [
+        8,
+        2,
+        0,
+        false,
+        512,
+        false,
+        "",
+        1,
+        "h264",
+        "",
+        true,
+        "none",
+        true,
+        0.7,
+        0.4,
+        12
       ]
     }
   ],
@@ -5079,16 +5201,16 @@
       "FLOAT"
     ],
     [
-      648,
+      652,
       332,
       1,
-      360,
+      361,
       0,
       "STRING"
     ],
     [
-      650,
-      360,
+      653,
+      361,
       0,
       347,
       0,
@@ -5232,11 +5354,11 @@
     "ds": {
       "scale": 0.7972024500000154,
       "offset": [
-        -934.9991413616422,
-        -3475.4519577974966
+        -1173.3325784954538,
+        -3563.2590135836367
       ]
     },
-    "frontendVersion": "1.41.20",
+    "frontendVersion": "1.41.21",
     "workflowRendererVersion": "LG",
     "prompt": {
       "1": {
