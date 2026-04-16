@@ -3,7 +3,7 @@
 
 Upscaling long videos in ComfyUI finally works exactly as it should. No out-of-memory (OOM) crashes, no killing your SSD with thousands of temporary PNG files, and no silent freezes after 4 hours of rendering.
 
-This suite wraps NVIDIA's MAXINE Video Super Resolution (VSR) SDK into a **bulletproof, production-ready pipeline**. It features true streaming, real non-blocking I/O, and an architecture designed to survive extreme workloads.
+This suite wraps **NVIDIA Video Effects (VFX) SDK** (part of **NVIDIA AI for Media**, formerly known as Maxine) into a **bulletproof, production-ready pipeline**. It features true streaming, real non-blocking I/O, and an architecture designed to survive extreme workloads.
 
 ## 🌟 Why does this exist?
 Most video nodes in ComfyUI do one of two things:
@@ -22,11 +22,13 @@ Most video nodes in ComfyUI do one of two things:
 
 ## 🛠️ Prerequisites
 
-You must have an **NVIDIA RTX GPU** and the Maxine VSR SDK installed.
+You must have an **NVIDIA RTX GPU** and the **NVIDIA Video Effects (VFX) SDK** installed.
 
-1. Windows: Install the [NVIDIA Video Codec SDK / MAXINE-VFX-SDK](https://github.com/NVIDIA/MAXINE-VFX-SDK).
+1. **Windows**: Download and install the [NVIDIA Video Effects (VFX) SDK](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/maxine/collections/maxine_vfx_sdk) from the NVIDIA NGC Catalog (part of NVIDIA AI for Media, formerly Maxine).
 2. Ensure you have the `nvvfx` Python module available in your ComfyUI environment.
 3. **FFmpeg** must be installed and available in your system's PATH.
+
+> **Note**: The old GitHub repository `NVIDIA/MAXINE-VFX-SDK` was archived after NVIDIA rebranded Maxine to **AI for Media**. The SDK itself is still fully supported and actively maintained.
 
 ## 📦 Installation
 
@@ -128,7 +130,7 @@ Performance – Improved FFmpeg stream handling in the Audio Muxer.
 
 Initial Release of the RTX Video Suite.
 
-Core Engine – Integration with NVIDIA MAXINE SDK for RTX Video Super Resolution.
+Core Engine – Integration with NVIDIA Video Effects (VFX) SDK (AI for Media) for RTX Video Super Resolution.
 
 RTX Batch Upscale (Simple/Advanced) – High-performance upscaling for MP4/AVI containers.
 
